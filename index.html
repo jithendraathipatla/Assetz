@@ -36,21 +36,24 @@
           s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
       })();
+      
+    </script>
 
-         window.onscroll = function() {scrollFunction()};
+    <script>
+      window.onscroll = function() {scrollFunction()};
 
-        function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-          document.getElementById("fixingthenav").style.boxShadow = "1px 2px 3px";
-          document.getElementById("fixingthenav").style.background = "rgba(0,0,0,0.7)";
+  function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("fixingthenav").style.boxShadow = "1px 2px 3px";
+    document.getElementById("fixingthenav").style.background = "rgba(0,0,0,0.7)";
+  
+  } else {
+    document.getElementById("fixingthenav").style.boxShadow = "0px 0px 0px";
+    document.getElementById("fixingthenav").style.background = "transparent";
+    
 
-        } else {
-          document.getElementById("fixingthenav").style.boxShadow = "0px 0px 0px";
-          document.getElementById("fixingthenav").style.background = "transparent";
-          
-
-        }
-        }
+  }
+   }
     </script>
   </head>
   <body>
@@ -88,8 +91,10 @@
               <li class="nav-item adjusting"><i class="fa fa-phone" aria-hidden="true" style="color: white;"></i>
               <a href="tel:+919071354854" id="hi"><span style="font-weight:500; font-size: 20px; color:black; font-style: italic;" id="hii">call:9071354854</span></a></li>
         </ul>
+       
       </div>
     </nav>
+    
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
       <div class="carousel-inner">
           <div class="carousel-item active">
@@ -360,8 +365,10 @@
             </div>
         </div>
       </div>
+     
     </div>
-    <!-- End of the slider -->
+   
+  
     <div id="adjust" style="height:40px;text-align: center; padding-top:10px">
      
       <h3 style="margin-top:2px;">About <span style="font-style:italic; color:#19544B">Assetz Marq</span></h3>
@@ -409,8 +416,7 @@
     </div>
   
     <div style="height:40px;"></div>
-    
-    <!-- End of Overview -->
+
 
     <div class="containeraa" style="text-align:center">
                 <h3 style="margin-top:-32px;">Assetz <span style="font-style:italic; color:#19544B">Overview</span></h3>
@@ -501,10 +507,11 @@
                 </table>
                         
       </div>
-    </div>  
+    </div>
+   
+    
     <div style="height:40px;" ></div>
     
-    <!-- End of configuration -->
       
     <!-- gallery -->
 
@@ -538,26 +545,26 @@
                                       <div class="row">
                                         <div class="col-md-3">
                                           <div class="card">
-                                              <img src="./Images/slider5.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                                              <img src="./Images/slider5.jpg" onclick="openModal();" class="hover-shadow">
                                           </div>
                                            
                                         </div>
 
                                         <div class="col-md-3">
                                             <div class="card">
-                                                <img src="./Images/slider4.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                                                <img src="./Images/slider4.jpg" onclick="openModal();" class="hover-shadow">
                                             </div>
                                              
                                           </div>
                                           <div class="col-md-3">
                                               <div class="card">
-                                                  <img src="./Images/slider1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                                                  <img src="./Images/slider1.jpg" onclick="openModal();" class="hover-shadow">
                                               </div>
                                                
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="card">
-                                                    <img src="./Images/slider2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                                                    <img src="./Images/slider2.jpg" onclick="openModal();" class="hover-shadow">
                                                 </div>
                                                  
                                               </div>
@@ -566,32 +573,32 @@
                                       <div class="row">
                                           <div class="col-md-3">
                                             <div class="card">
-                                                <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM (1).jpeg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                                                <img src="./Images/interior1.jpeg" onclick="openModal();" class="hover-shadow">
                                             </div>
                                              
                                           </div>
   
                                           <div class="col-md-3">
                                               <div class="card">
-                                                  <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                                                  <img src="./Images/interior2.jpeg" onclick="openModal();" class="hover-shadow">
                                               </div>
                                                
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="card">
-                                                    <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.46 AM (1).jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                                                    <img src="./Images/interior3.jpeg" onclick="openModal();" class="hover-shadow">
                                                 </div>
                                                  
                                               </div>
                                               <div class="col-md-3">
                                                   <div class="card">
-                                                      <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.46 AM.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                                                      <img src="./Images/interior4.jpeg" onclick="openModal();" class="hover-shadow">
                                                   </div>
                                                    
                                                 </div>
                                         </div>
                      
-                 
+          
                         <br>
                         
                       
@@ -622,43 +629,108 @@
                       <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="homeaa" role="tabpanel" aria-labelledby="home-tab">
                           <br/>
-                              <div class="row">
-                                
-                                
-                                <div class="col-md-3">
+                          <div class="row">
+
+                              <div class="col-md-3">
                                   <div class="card">
-                               
-                                  <img src="./Images/Assetz Marq 2_page-0017.jpg" class="hover-shadow" width="100%" onclick="finalfloor()"/>
-                             
+                          
+                                      <img src="./Images/floor1.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                          
+                                  </div>
                               </div>
+                          
+                              <div class="col-md-3">
+                                  <div class="card">
+                          
+                                      <img src="./Images/floor2.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                          
+                                  </div>
+                              </div>
+                          
+                              <div class="col-md-3">
+                                  <div class="card">
+                          
+                                      <img src="./Images/floor3.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                          
+                                  </div>
+                              </div>
+                          
+                              <div class="col-md-3">
+                                  <div class="card">
+                          
+                                      <img src="./Images/floor4.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                          
+                                  </div>
+                              </div>
+                          </div>
+
+                        </br>
+
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="card">
+                        
+                                    <img src="./Images/floor5.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                        
+                                </div>
                             </div>
-
-                                  <div class="col-md-3">
-                                      <div class="card">
-                                         
-                                            <img src="./Images/Assetz Marq 2_page-0018.jpg" class="hover-shadow" width="100%"  onclick="finalfloor1()"/>
-                                      
-                                  </div>
+                        
+                            <div class="col-md-3">
+                                <div class="card">
+                        
+                                    <img src="./Images/floor6.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                        
                                 </div>
-
-                               
-                                  <div class="col-md-3">
-                                    <div class="card">
-                                        
-                                          <img src="./Images/Assetz Marq 2_page-0019.jpg" class="hover-shadow" width="100%"  onclick="finalfloor2()"/>
-                                     
-                                  </div>
+                            </div>
+                        
+                            <div class="col-md-3">
+                                <div class="card">
+                        
+                                    <img src="./Images/floor7.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                        
                                 </div>
-
-                                
-                                  <div class="col-md-3">
-                                      <div class="card">
-                                         
-                                            <img src="./Images/Assetz Marq 2_page-0020.jpg" class="hover-shadow" width="100%"  onclick="finalfloor3"/>
-                                       
-                                  </div>
+                            </div>
+                        
+                            <div class="col-md-3">
+                                <div class="card">
+                        
+                                    <img src="./Images/floor8.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                        
                                 </div>
+                            </div>
+                        </div>
+
+                      </br>
+
+                      <div class="row">
+
+                          <div class="col-md-3">
+                              <div class="card">
+                      
+                                  <img src="./Images/floor9.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                      
                               </div>
+                          </div>
+                      
+                          <div class="col-md-3">
+                              <div class="card">
+                      
+                                  <img src="./Images/floor10.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                      
+                              </div>
+                          </div>
+                      
+                          <div class="col-md-3">
+                              <div class="card">
+                      
+                                  <img src="./Images/floor11.jpg" class="hover-shadow" width="100%" onclick="openFloorPlan()" />
+                      
+                              </div>
+                          </div>
+                      
+                         
+                      </div>
                               
                         </div>
                         <div class="tab-pane fade" id="profileaa" role="tabpanel" aria-labelledby="profile-tab">
@@ -732,26 +804,55 @@
                         <div class="row">
                           <div class="col-md-3">
                             
-                                 <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM.jpeg" class="hover-shadow" onclick="interiorFirst()">
+                                 <img src="./Images/interior1.jpeg" class="hover-shadow" onclick="showinterior()">
                               
                           </div>
 
                           <div class="col-md-3">
                               
-                                 <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.47 AM (1).jpeg" class="hover-shadow" onclick="interiorTwo()">
+                                 <img src="./Images/interior2.jpeg" class="hover-shadow" onclick="showinterior()">
                               
                           </div>
 
                           <div class="col-md-3">
                               
-                                 <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.51 AM.jpeg" class="hover-shadow" onclick="interiorThree()">
+                                 <img src="./Images/interior3.jpeg" class="hover-shadow" onclick="showinterior()">
                               
                           </div>
 
 
                           <div class="col-md-3">
                               
-                                 <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.54 AM.jpeg" class="hover-shadow" onclick="interiorFour()">
+                                 <img src="./Images/interior4.jpeg" class="hover-shadow" onclick="showinterior()">
+                             
+                          </div>
+
+                        </div>
+
+                        <br/>
+                        <div class="row">
+                          <div class="col-md-3">
+                            
+                                 <img src="./Images/interior5.jpeg" class="hover-shadow" onclick="showinterior()">
+                              
+                          </div>
+
+                          <div class="col-md-3">
+                              
+                                 <img src="./Images/interior6.jpeg" class="hover-shadow" onclick="showinterior()">
+                              
+                          </div>
+
+                          <div class="col-md-3">
+                              
+                                 <img src="./Images/interior7.jpeg" class="hover-shadow" onclick="showinterior()">
+                              
+                          </div>
+
+
+                          <div class="col-md-3">
+                              
+                                 <img src="./Images/interior8.jpeg" class="hover-shadow" onclick="showinterior()">
                              
                           </div>
 
@@ -765,26 +866,26 @@
                         <div class="row">
                             <div class="col-md-3">
                                
-                                   <img src="./Images/slider1.jpg" class="hover-shadow" style="width:100%" onclick="exteriorFirst()">
+                                   <img src="./Images/slider1.jpg" class="hover-shadow" style="width:100%" onclick="exterior()">
                                
                             </div>
   
                             <div class="col-md-3">
                                
-                                   <img src="./Images/slider2.jpg" class="hover-shadow" style="width:100%" onclick="exteriorTwo()">
+                                   <img src="./Images/slider2.jpg" class="hover-shadow" style="width:100%" onclick="exterior()">
                                 
                             </div>
   
                             <div class="col-md-3">
                                
-                                   <img src="./Images/slider3.jpg" class="hover-shadow" style="width:100%" onclick="exteriorThree()">
+                                   <img src="./Images/slider3.jpg" class="hover-shadow" style="width:100%" onclick="exterior()">
                                
                             </div>
   
 
                             <div class="col-md-3">
                                
-                                <img src="./Images/slider4.jpg" class="hover-shadow" style="width:100%" onclick="exteriorFour()">
+                                <img src="./Images/slider4.jpg" class="hover-shadow" style="width:100%" onclick="exterior()">
                             
                          </div>
                         </div>
@@ -795,7 +896,7 @@
 
                          <div class="col-md-3">
                                
-                            <img src="./Images/slider5.jpg" class="hover-shadow" style="width:100%" onclick="exteriorFive()">
+                            <img src="./Images/slider5.jpg" class="hover-shadow" style="width:100%" onclick="exterior()">
                         
                          </div>
 
@@ -1158,132 +1259,171 @@
       </div>
     </div>
   </div>
+    
+    <div id="myModal1" class="modal1">
+        <span class="close cursor" onclick="closeModalFloor()" id="close">&times;</span>
+        <div class="modal1-content">
+            <div class="mySlidesFloor">
+                <div class="numbertextfloor">1 / 11</div>
+                <img src="./Images/floor1.jpg" class="gallery-maintain">
+              </div>
 
-  <!-- F-plan -->
+              <div class="mySlidesFloor">
+                  <div class="numbertextfloor">2/ 11</div>
+                  <img src="./Images/floor2.jpg" class="gallery-maintain">
+                </div>
 
-  <div id="fplan1" class="modal1"> 
-      <span class="close cursor" onclick="closefplan()" id="close">&times;</span>
-     </div>
-      
-  </div>
+                <div class="mySlidesFloor">
+                    <div class="numbertextfloor">3 / 11</div>
+                    <img src="./Images/floor3.jpg" class="gallery-maintain">
+                  </div>
 
-  <div id="fplan2" class="modal1"> 
-      <span class="close cursor" onclick="closefplan1()" id="close">&times;</span>
-      <div class="modal1-content">
-        <a href="./Images/Assetz Marq 2_page-0018.jpg">
-          <img src="./Images/Assetz Marq 2_page-0018.jpg" class="gallery-maintain" />
-          </a>
-        </div>
-  </div>
+                  <div class="mySlidesFloor">
+                      <div class="numbertextfloor">4 / 11</div>
+                      <img src="./Images/floor4.jpg" class="gallery-maintain">
+                    </div>
 
-  <div id="fplan3" class="modal1"> 
-      <span class="close cursor" onclick="closefplan2()" id="close">&times;</span>
-      <div class="modal1-content">
-        <a href="./Images/Assetz Marq 2_page-0019.jpg">
-          <img src="./Images/Assetz Marq 2_page-0019.jpg" class="gallery-maintain" />
-          </a>
-        </div>
-  </div>
-
-  <div id="fplan4" class="modal1"> 
-      <span class="close cursor" onclick="closefplan3()" id="close">&times;</span>
-      <div class="modal1-content">
-        <a href="./Images/Assetz Marq 2_page-0020.jpg">
-          <img src="./Images/Assetz Marq 2_page-0020.jpg" class="gallery-maintain" />
-          </a>
-        </div>
-  </div>
+                    <div class="mySlidesFloor">
+                        <div class="numbertextfloor">5 / 11</div>
+                        <img src="./Images/floor5.jpg" class="gallery-maintain">
+                      </div>
 
 
-  <!-- M-plan -->
-
-  <div id="mplan1" class="modal1"> 
-      <span class="close cursor" onclick="closemplan()" id="close">&times;</span>
-      <div class="modal1-content">
-        <a href="./Images/mplan.jpg">
-          <img src="./Images/mplan.jpg" class="gallery-maintain" />
-          </a>
-        </div>
-  </div>
+                      <div class="mySlidesFloor">
+                          <div class="numbertextfloor">6 / 11</div>
+                          <img src="./Images/floor6.jpg" class="gallery-maintain">
+                        </div>
+                        <div class="mySlidesFloor">
+                            <div class="numbertextfloor">7 / 11</div>
+                            <img src="./Images/floor7.jpg" class="gallery-maintain">
+                          </div>
 
 
-    <!-- Interior slider -->
-
-    <div id="interior1" class="modal1">
-        <span class="close cursor" onclick="closeInterior1()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.44 AM.jpeg" class="gallery-maintain" />
-          </div>
-    </div>
-
-    <div id="interior2" class="modal1">
-        <span class="close cursor" onclick="closeInterior2()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM (1).jpeg" class="gallery-maintain" />
-          </div>
-    </div>
-
-    <div id="interior3" class="modal1">
-        <span class="close cursor" onclick="closeInterior3()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM.jpeg" class="gallery-maintain" />
-          </div>
-    </div>
-
-    <div id="interior4" class="modal1">
-        <span class="close cursor" onclick="closeInterior4()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.46 AM (1).jpeg" class="gallery-maintain" />
-          </div>
-    </div>
+                          <div class="mySlidesFloor">
+                              <div class="numbertextfloor">8 / 11</div>
+                              <img src="./Images/floor8.jpg" class="gallery-maintain">
+                            </div>
 
 
-    <!-- Exterior slider -->
+                            <div class="mySlidesFloor">
+                                <div class="numbertextfloor">9 / 11</div>
+                                <img src="./Images/floor9.jpg" class="gallery-maintain">
+                              </div>
 
+                              <div class="mySlidesFloor">
+                                  <div class="numbertextfloor">10 / 11</div>
+                                  <img src="./Images/floor10.jpg" class="gallery-maintain">
+                                </div>
 
-     <!-- Interior slider -->
+                                <div class="mySlidesFloor">
+                                    <div class="numbertextfloor">11 / 11</div>
+                                    <img src="./Images/floor11.jpg" class="gallery-maintain">
+                                  </div>
+                          
 
-     <div id="exterior1" class="modal1">
-        <span class="close cursor" onclick="closeExterior1()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/slider1.jpg" class="gallery-maintain" />
-          </div>
-    </div>
+                                  <a class="prev" onclick="plusSlidesFloor(-1)">&#10094;</a>
+                                  <a class="next" onclick="plusSlidesFloor(1)">&#10095;</a>
+                              
 
-    <div id="exterior2" class="modal1">
-        <span class="close cursor" onclick="closeExterior2()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/slider2.jpg" class="gallery-maintain" />
-          </div>
-    </div>
-
-    <div id="exterior3" class="modal1">
-        <span class="close cursor" onclick="closeExterior3()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/slider3.jpg" class="gallery-maintain" />
-          </div>
-    </div>
-
-    <div id="exterior4" class="modal1">
-        <span class="close cursor" onclick="closeExterior4()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/slider4.jpg" class="gallery-maintain" />
-          </div>
-    </div>
-
-
-    <div id="exterior5" class="modal1">
-        <span class="close cursor" onclick="closeExterior5()" id="close">&times;</span>
-          <div class="modal1-content">
-            <img src="./Images/slider5.jpg" class="gallery-maintain" />
-          </div>
-    </div>
-
+                      </div>
+               </div>
   
 
-    
+
+               <div id="myModal2" class="modal1">
+                  <span class="close cursor" onclick="closeModalInterior()" id="close">&times;</span>
+                  <div class="modal1-content">
+                      <div class="myslidesInterior">
+                          <div class="numbertext">1 / 8</div>
+                          <img src="./Images/interior1.jpeg" class="gallery-maintain">
+                        </div>
+          
+                        <div class="myslidesInterior">
+                            <div class="numbertext">2/ 8</div>
+                            <img src="./Images/interior2.jpeg" class="gallery-maintain">
+                          </div>
+          
+                          <div class="myslidesInterior">
+                              <div class="numbertext">3 / 8</div>
+                              <img src="./Images/interior3.jpeg" class="gallery-maintain">
+                            </div>
+          
+                            <div class="myslidesInterior">
+                                <div class="numbertext">4 / 8</div>
+                                <img src="./Images/interior4.jpeg" class="gallery-maintain">
+                              </div>
+          
+                              <div class="myslidesInterior">
+                                  <div class="numbertext">5 / 8</div>
+                                  <img src="./Images/interior5.jpeg" class="gallery-maintain">
+                                </div>
+          
+          
+                                <div class="myslidesInterior">
+                                    <div class="numbertext">6 / 8</div>
+                                    <img src="./Images/interior6.jpeg" class="gallery-maintain">
+                                  </div>
+                                  <div class="myslidesInterior">
+                                      <div class="numbertext">7 / 8</div>
+                                      <img src="./Images/interior7.jpeg" class="gallery-maintain">
+                                    </div>
+          
+          
+                                    <div class="myslidesInterior">
+                                        <div class="numbertext">8 / 8</div>
+                                        <img src="./Images/interior8.jpeg" class="gallery-maintain">
+                                      </div>
+          
+          
+                                            <a class="prev" onclick="plusSlidesInterior(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlidesInterior(1)">&#10095;</a>
+                                        
+          
+                                </div>
+                         </div>
 
 
+
+                         <div id="myModal3" class="modal1">
+                            <span class="close cursor" onclick="closeModalExterior()" id="close">&times;</span>
+                            <div class="modal1-content">
+                                <div class="mySlidesExterior">
+                                    <div class="numbertext">1 / 5</div>
+                                    <img src="./Images/slider1.jpg" class="gallery-maintain">
+                                  </div>
+                    
+                                  <div class="mySlidesExterior">
+                                      <div class="numbertext">2/ 5</div>
+                                      <img src="./Images/slider2.jpg" class="gallery-maintain">
+                                    </div>
+                    
+                                    <div class="mySlidesExterior">
+                                        <div class="numbertext">3 / 5</div>
+                                        <img src="./Images/slider3.jpg" class="gallery-maintain">
+                                      </div>
+                    
+                                      <div class="mySlidesExterior">
+                                          <div class="numbertext">4 / 5</div>
+                                          <img src="./Images/slider4.jpg" class="gallery-maintain">
+                                        </div>
+                    
+                                        <div class="mySlidesExterior">
+                                            <div class="numbertext">5 / 5</div>
+                                            <img src="./Images/slider5.jpg" class="gallery-maintain">
+                                          </div>
+                    
+                    
+                                          
+                    
+                    
+                                                      <a class="prev" onclick="plusSlidesExterior(-1)">&#10094;</a>
+                                                      <a class="next" onclick="plusSlidesExterior(1)">&#10095;</a>
+                                                  
+                    
+                                          </div>
+                                   </div>
+                      
+            
 
     <div id="myModal" class="modal1">
       <span class="close cursor" onclick="closeModal()" id="close">&times;</span>
@@ -1291,52 +1431,52 @@
     
         <div class="mySlides">
           <div class="numbertext">1 / 10</div>
-          <img src="./Images/slider3.jpg" class="gallery-maintain">
+          <img src="./Images/slider5.jpg" class="gallery-maintain">
         </div>
     
         <div class="mySlides">
           <div class="numbertext">2 / 10</div>
-          <img src="./Images/slider2.jpg" class="gallery-maintain">
+          <img src="./Images/slider4.jpg" class="gallery-maintain">
         </div>
     
         <div class="mySlides">
           <div class="numbertext">3 / 10</div>
-          <img src="./Images/slider1.jpg" class="gallery-maintain">
+          <img src="./Images/slider3.jpg" class="gallery-maintain">
         </div>
     
         <div class="mySlides">
           <div class="numbertext">4 / 10</div>
-          <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.44 AM.jpeg" class="gallery-maintain">
+          <img src="./Images/slider2.jpg" class="gallery-maintain">
         </div>
 
         <div class="mySlides">
           <div class="numbertext">5 / 10</div>
-          <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM (1).jpeg" class="gallery-maintain">
+          <img src="./Images/slider1.jpg" class="gallery-maintain">
         </div>
 
         <div class="mySlides">
           <div class="numbertext">6 / 10</div>
-          <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.45 AM.jpeg" class="gallery-maintain">
+          <img src="./Images/interior1.jpeg" class="gallery-maintain">
         </div>
        
         <div class="mySlides">
           <div class="numbertext">7 / 10</div>
-          <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.46 AM (1).jpeg" class="gallery-maintain">
+          <img src="./Images/interior2.jpeg" class="gallery-maintain">
         </div>
 
         <div class="mySlides">
           <div class="numbertext">8/ 10</div>
-          <img src="./Images/WhatsApp Image 2019-10-17 at 10.04.46 AM.jpeg" class="gallery-maintain">
+          <img src="./Images/interior3.jpeg" class="gallery-maintain">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">9 / 10</div>
-            <img src="./Images/slider4.jpg" class="gallery-maintain">
+            <img src="./Images/interior4.jpeg" class="gallery-maintain">
           </div>
 
           <div class="mySlides">
               <div class="numbertext">10 / 10</div>
-              <img src="./Images/slider5.jpg" class="gallery-maintain">
+              <img src="./Images/interior5.jpeg" class="gallery-maintain">
             </div>
         <!-- Next/previous controls -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -1347,38 +1487,6 @@
           <p id="caption"></p>
         </div>
     
-        <!-- Thumbnail image controls -->
-        <div class="column">
-          <img class="demo" src="./Images/slider3.jpg" onclick="currentSlide(1)" alt="Nature">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/2.jpg" onclick="currentSlide(2)" alt="Snow">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/3.jpg" onclick="currentSlide(3)" alt="Mountains">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/4.jpg" onclick="currentSlide(4)" alt="Lights">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/5.jpg" onclick="currentSlide(5)" alt="Lights">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/6.jpg" onclick="currentSlide(6)" alt="Lights">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/7.jpg" onclick="currentSlide(7)" alt="Lights">
-        </div>
-
-        <div class="column">
-          <img class="demo" src="https://www.brigadecornerstoneutopia.in/images/Gallery/exterior/8.jpg" onclick="currentSlide(8)" alt="Lights">
-        </div>
       </div>
     </div>
 

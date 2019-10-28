@@ -1,134 +1,138 @@
 
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-  color:white;
-  margin-right:25px;
+    color:white;
+    margin-right:25px;
 }
 @media (min-width: 768px){
 .col-md-2 {
-  -ms-flex: 0 0 16.666667%;
-  flex: 0 0 16.666667%;
-  max-width: 16.666667%;
-  margin-bottom: 32px;
-  margin-top: 48px;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    margin-bottom: 32px;
+    margin-top: 48px;
 }
 }
 .table th {
-  padding: 5px !important;
-  font-size: medium;
-  font-weight: 500;
-  vertical-align: top;
-  border-top: 1px solid #dee2e6;
+    padding: 5px !important;
+    font-size: medium;
+    font-weight: 500;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
 }
 table-bordered td, .table-bordered th {
-  border: 1px solid #dee2e6;
-  padding: 2px !important;
-  font-size: small;
+    border: 1px solid #dee2e6;
+    padding: 2px !important;
+    font-size: small;
 }
 table td, .table-bordered th {
-  border: 1px solid #dee2e6;
-  padding: 5px !important;
-  font-size: medium;
+    border: 1px solid #dee2e6;
+    padding: 5px !important;
+    font-size: medium;
 }
 table.bordered td:hover {
 background-color: #06c;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
-  margin-right:25px;
+    color: white;
+    margin-right:25px;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-color: #ED2A28;
+  color: #ED2A28;
 }
-.container1 {
-position: relative;
-max-width: 100%; /* Maximum width */
-margin: 0 auto; /* Center it */
+  .container1 {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
 
 .container1 .content {
-position: absolute; /* Position the background text */
-bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-background: rgb(0, 0, 0); /* Fallback color */
-background: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */
-color: #f1f1f1; /* Grey text */
-width: 100%; /* Full width */
-padding: 20px; /* Some padding */
-height:100%;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  height:100%;
 }
 @media (min-width: 768px){
 .navbar-expand-md .navbar-collapse {
-  display: -ms-flexbox!important;
-  display: flex!important;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  margin-left: 390px;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin-left: 390px;
 }
 }
 .fixed-top{
-padding:0px;
+  padding:0px;
 }
 
 
 .container2{
-  height: auto;
-  widows: 90%;
-  display: flex;
-}
-.container2 .map{
-  flex:1;
-  padding:20px;
-  box-shadow: 1px 2px 3px;
-}
-
-.container2 .form{
-  flex: 1;
-  box-shadow: 1px 0px 3px;
+    height: auto;
+    widows: 90%;
+    display: flex;
+  }
+  .container2 .map{
+    flex:1;
+    padding:20px;
+    box-shadow: 1px 2px 3px;
+  }
   
-}
-.row.proper{
-  margin-left:70px;
-}
+  .container2 .form{
+    flex: 1;
+    box-shadow: 1px 0px 3px;
+    
+  }
+  .row.proper{
+    margin-left:70px;
+  }
 
 
-.container5 .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(225,225,225, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  left: 0%;
-  padding: 13px;
-  height: 60%;
-  border-radius: 10px;
-  bottom: 0%;
- }
+  .container5 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(225,225,225, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    left: 0%;
+    padding: 13px;
+    height: 60%;
+    border-radius: 10px;
+    bottom: 0%;
+   }
 
 
- 
+   
 #hi :hover{
-
- text-decoration: none;
+ 
+   text-decoration: none;
+ }
+ a.nav-link:hover{
+   text-decoration: none;
+ }
+ a:link{
+  text-decoration: none!important;
 }
-a.nav-link:hover{
- text-decoration: none;
-}
-a:link{
-text-decoration: none!important;
-}
-#hii{
-
-   font-weight: 500;
-   font-size: 20px;
-   color: #0af90afc;
-   padding: 6px;
-   border-radius: 4px;
-   background: azure;
-   font-family: monospace;
+ #hii{
+ 
+     font-weight: 500;
+     font-size: 20px;
+     color: #0af90afc;
+     padding: 6px;
+     border-radius: 4px;
+     background: azure;
+     font-family: monospace;
+    
+ }
   
-}
 
+ .numbertextfloor{
+   color:black;
+ }
 
 @media only screen and (max-width: 600px){
   .row.proper {
