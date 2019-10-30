@@ -1,8 +1,15 @@
 
-
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color:white;
     margin-right:25px;
+}
+
+.carousel-captiona{
+  position: absolute;
+  top: -322px;
+  color: white;
+  left:15vh;
+  text-align: justify;
 }
 @media (min-width: 768px){
 .col-md-2 {
@@ -138,6 +145,11 @@ background-color: #06c;
   .row.proper {
     margin-left: 26px !important;
 }
+.popup{
+  
+  top: 19% !important;
+ 
+}
 .modal-dialog {
   position: relative;
   width: auto;
@@ -243,7 +255,7 @@ img.hoverjj:hover{
 .popupps{
   left: 0;
   position: fixed;
-  top: 65%;
+  top: 55%;
   transition: left .5s ease;
   z-index:1000;
 }
@@ -741,6 +753,21 @@ a#nav{
     display: inherit !important;
 }
 
+.contact-box{
+  display:none;
+}
+.carousel-captiona {
+  position: absolute;
+  top: -322px;
+  color: white;
+  left: 11vh;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.carousel-captiona h4{
+  font-size: 12px;
+}
 #contactUsForm{
   background: white;
   padding: 6px 10px !important;
@@ -755,6 +782,7 @@ a#nav{
 .fixed-top {
   padding: 0px;
   padding-bottom: 0px !important;
+  background: #000 !important;
 }
 .abcd {
   margin-top: 5px;
