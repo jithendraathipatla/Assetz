@@ -752,7 +752,10 @@ a#nav{
 .container2 {
     display: inherit !important;
 }
-
+.youtubeFrame{
+  display: block !important;
+  padding: 10px 0px 10px 22px !important;
+}
 .contact-box{
   display:none;
 }
@@ -931,6 +934,21 @@ rounded-circle:hover{
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
+}
+
+.youtubeFrame{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-gap: 30px;
+  margin-bottom:30px;
+  padding:10px 40px 10px 70px;
+  border: 0.5 px solid rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px rgb(0, 0, 0, 0.5);
+}
+
+iframe{
+  border: none;
 }
 
 

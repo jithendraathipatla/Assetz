@@ -128,7 +128,7 @@ let win = $(window).width();
 
 if(win < 420){
   document.querySelector(".navbar-toggler").style.display= "none";
-  document.querySelector(".navbar-brand").style.marginLeft = "154px";
+  document.querySelector(".navbar-brand").style.marginLeft = "142px";
 }
 else {
 
@@ -149,6 +149,11 @@ else {
 
   $("#fg").click(function(){
     $("html, body" ).animate({scrollTop:2400}, 'slow');
+    return false;
+  });
+
+  $("#gh").click(function(){
+    $("html, body" ).animate({scrollTop:3500}, 'slow');
     return false;
   });
 
