@@ -155,3 +155,43 @@ else {
 }
 
 
+function validatebrouchere(){
+  event.preventDefault();
+  var x = document.forms["brouchereform"]["email"].value;
+  var y =  document.forms["brouchereform"]["mobile"].value;
+  if( x == "" || y == ""){
+    alert("these values must be filled");
+  }
+  else{
+    alert("you successfully have submitted the deatails");
+  
+    var name = "NA";
+    var phone = y;
+    var email = x;
+    var desc = "NA";
+    var data = {
+       name : name,
+       phone : phone,
+       email : email,
+       desc : desc
+     };
+   $.ajax({
+    type: "POST",
+    url : "https://3346ysw4wk.execute-api.us-east-2.amazonaws.com/Firstlive/first",
+    dataType: "json",
+    crossDomain: "true",
+    contentType: "application/json; charset=utf-8",
+    data: JSON.stringify(data),
+    success: function () {
+      console.log(data);
+      alert(data);
+      window.open('./Assetz Marq 2.pdf');
+    },
+    error: function () {
+      // show an error message
+      alert("UnSuccessfull");
+    }});
+  
+
+}
+}
