@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" /> 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="https://www.assetzpropertybangalore.com/wp-content/uploads/2018/08/cropped-assetz-logo-32x32.png" sizes="32x32">
     <link rel="icon" href="https://www.assetzpropertybangalore.com/wp-content/uploads/2018/08/cropped-assetz-logo-192x192.png" sizes="192x192">
@@ -16,16 +15,6 @@
       <meta name="description" content="Assetz Marq 2.0is New Township Residential Project by Assetz Group. 
       This project is located at Kannamangala near to Whitefield Main Road East Bangalore. 
       And Its Offer Modern Luxury Apartments Get updates Price, Floor Plans, offers, Brochure, Location, Reviews and more."/>
-    <!-- unite grid -->
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-		<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
-		<script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
-    <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
-    
     <link rel="shortcut icon" href="">
     <style>
       @media only screen and (max-width: 600px){
@@ -1018,7 +1007,7 @@
 
                 </div>
                 <div class="col-md4">
-                    <div class=" wrapper" >
+                    <div class="wrapper">
                         <img class="image" src="http://brigade-utopia.co/images/costing-details.jpg" data-toggle="modal" data-target="#exampleModal" style="width:300px; height:200px">
                         <div class="middle">
                         <p class="text" style="cursor: pointer;" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-search" aria-hidden="true" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"></i></p>
@@ -1057,17 +1046,14 @@
                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Price Breakup</button>
                              </td>
                             </tr>
-                            
-                          
                          </tbody>
-                       </table>
-
+                    </table>
                 </div>
                 <div class="col-md4">
                     <div class=" wrapper" >
                         <img class="image" src="http://brigade-utopia.co/images/costing-details.jpg" data-toggle="modal" data-target="#exampleModal" style="width:300px; height:200px">
                         <div class="middle">
-                        <p class="text" style="cursor: pointer;" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-search" aria-hidden="true" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"></i></p>
+                        <p class="text" style="cursor: pointer;" data-toggle="modal" data-target="#exampleModal" onclick="fixingdetails()"><i class="fa fa-search" aria-hidden="true" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;"  onclick="fixingdetails()"></i></p>
                       </div>
                      </div>
                      <br>
@@ -1229,10 +1215,9 @@
     <!-- Modal -->
 
 
-
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document" style="border-top-left-radius: 5px;;">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog" role="document" style="border-top-left-radius: 5px;">
       <div class="modal-content">
          
           <div class="modal-header"style="background: linear-gradient(to bottom, #76d56fe8,#28b485e8); color:white;">
@@ -1260,7 +1245,7 @@
                 <label for="phone" style="color: #76d56f">Phone</label><br>
                 <input type="tel" name="client_phone_number" minlength="10" maxlength="13" id="ccc" class="form-control" placeholder="Enter Your Phone" required=""><br>
                 <div style="text-align: center;">
-                <button type="submit" class="btn btn-primary btn-sm" style="color:linear-gradient(to bottom, #76d56fe8,#28b485e8)" name="submit" value="send">Submit</button>
+                <button type="submit" class="btn btn-primary btn-sm" style="color:linear-gradient(to bottom, #76d56fe8,#28b485e8)" value="send">Submit</button>
                 </div>
             </form>
         </div>
@@ -1514,7 +1499,7 @@
                   <label for="mobile" style="color:white">*Mobile</label>
                 </div>             
                 <div class="btn-group" style="text-align: center; ">
-                  <button style="background:green;" class="fill-btn text-uppercase" type="submit" name="submit" >Submit</button>
+                  <button style="background:green;" class="fill-btn text-uppercase" type="submit" >Submit</button>
                 </div>
               </form> </p>
     </div>  
@@ -1535,7 +1520,7 @@
                   <label for="mobile" style="color:white">*Mobile</label>
                 </div>             
                 <div class="btn-group">
-                  <button name="submit" class="fill-btn text-uppercase" type="submit">submit</button>
+                  <button  class="fill-btn text-uppercase" type="submit">submit</button>
                 </div>
               </form> </p>
     </div>  
