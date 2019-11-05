@@ -12,19 +12,14 @@
 
 		if(mail($to, $subject, $message, $headers)){
 			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+		
 		}
 		else{
 			echo "Something went wrong!";
 		}
+	   
 	}
-	 $basic  = new \Nexmo\Client\Credentials\Basic('4311bb5f', 'lDPkc7FqO79Lrk2g');
-     $client = new \Nexmo\Client($basic);
-
-     $message = $client->message()->send([
-    'to' => '917013724071',
-    'from' => 'Assetz',
-    'text' => "Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n"."Wrote the following :"."\n\n".$msg;
-]);
+	
 ?>
 
 

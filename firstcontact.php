@@ -16,16 +16,8 @@
 		else{
 			echo "Something went wrong!";
 		}
-		
-		
+			
 	}
-	$basic  = new \Nexmo\Client\Credentials\Basic('4311bb5f', 'lDPkc7FqO79Lrk2g');
-     $client = new \Nexmo\Client($basic);
-
-     $message = $client->message()->send([
-    'to' => '919071354854',
-    'from' => 'Assetz',
-    'text' => "Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n";
 ?>
 
 
