@@ -1533,6 +1533,7 @@
       $(function() {      
         $('.button').on('click', function(e) {
         $('.popup').toggleClass("closepopup"); 
+        $('.popupps').addClass("closepopup"); 
         $('.button').toggleClass("button-closed");
         e.preventDefault();      
       });
@@ -1541,7 +1542,7 @@
         $('.buttonps').on('click', function(e) {
         $('.popupps').toggleClass("closepopup"); 
         $('.buttonps').toggleClass("button-closed");
-       
+        $(".popup").addClass("closepopup");
         e.preventDefault();      
       });
   });
