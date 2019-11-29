@@ -1,17 +1,33 @@
 <?php
-    $username="Jithendra";
+    
+
+    if(isset($_POST['submit'])){
+		$name=$_POST['client_name'];
+		$email=$_POST['client_mail_id'];
+		$phone=$_POST['client_phone_number'];
+		$msg=$_POST['client_message'];
+
+		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$subject='Assetz Marq 2.0';
+		$message="Project_Name:"."Assetz Marq 2.0"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		$headers="From: ".$email;
+		if(mail($to, $subject, $message, $headers)){
+							
+			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+			//Enter your login username 
+			$username="Jithendra";
 
 	
-	$password="Jithendra@18";
+	        $password="Jithendra@18";
 	
 
-	$message1="Property_Name :".$subject."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+	       $message1="Property_Name :".$subject."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
 	
 	
-	$sender="TestID";
+	           $sender="TestID";
 	
 	
-	$mobile_number=9071352854;
+	          $mobile_number=9071352854;
 
 	if($_POST['submitted']=='true')
          { 
@@ -22,20 +38,6 @@ echo $curl_scraped_page = curl_exec($ch);
 curl_close($ch); 
 }
 
-    if(isset($_POST['submit'])){
-		$name=$_POST['client_name'];
-		$email=$_POST['client_mail_id'];
-		$phone=$_POST['client_phone_number'];
-		$msg=$_POST['client_message'];
-
-		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
-		$subject='Assetz';
-		$message="ProjectName :"Assertz Marq 2.0"\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
-		$headers="From: ".$email;
-		if(mail($to, $subject, $message, $headers)){
-							
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
-			//Enter your login username 
 
 		}
 		
