@@ -22,7 +22,6 @@ echo $curl_scraped_page = curl_exec($ch);
 curl_close($ch); 
 }
 
-
     if(isset($_POST['submit'])){
 		$name=$_POST['client_name'];
 		$email=$_POST['client_mail_id'];
@@ -31,7 +30,7 @@ curl_close($ch);
 
 		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Assetz';
-		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		$message="ProjectName :"Assertz Marq 2.0"\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;
 		if(mail($to, $subject, $message, $headers)){
 							
