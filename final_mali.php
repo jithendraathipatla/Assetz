@@ -15,8 +15,8 @@
 							
 			echo "<h1  style=\"text-align:center\">Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
 
-			echo '<h3 style=\"text-align:center\"><a href="https://drive.google.com/open?id=1-q78u4kZ20jzAK0xLiOsORgOs3-coaiy">Click here to download Brochere</a><h3>';
-			echo '<h3 style=\"text-align:center\"><a href="https://drive.google.com/open?id=1GwUm4pSQygJcefm9JXOcTv46UM6fbkNt">Click here to download Cost Sheet</a><h3>';
+			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1-q78u4kZ20jzAK0xLiOsORgOs3-coaiy">Click here to download Brochure</a><h3>';
+			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1GwUm4pSQygJcefm9JXOcTv46UM6fbkNt">Click here to download Cost Sheet</a><h3>';
 			//Enter your login username 
 			$username="Jithendra";
 
