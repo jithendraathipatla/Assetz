@@ -22,7 +22,7 @@
 	        $password="Jithendra@18";
 	
 
-	       $message1="Property_Name :".$subject."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+	       $message1="Property_Name :".$subject."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n"."Wrote the following :"."\n\n".$msg;
 	
 	
 	           $sender="TestID";
